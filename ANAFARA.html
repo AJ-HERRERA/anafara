@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/e449f131af.js" crossorigin="anonymous"></script>
+<style>
+
+.container {
+
+  
+  margin: 0rem auto ; 
+  max-width: 200rem;  
+}
+
+nav{
+  margin-left: -10px; 
+}
+ul.nav{
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  line-height: 3;
+  background-color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(makeup.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: auto;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none; 
+}
+
+li a:hover {
+  background-color: rgb(212, 0, 202);
+           }
+.logo img{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 90px;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 2.5px;
+  font-size: 39px
+ }
+p{
+  text-indent: 50px;
+  text-align:center;
+  letter-spacing: 1px;
+  font-size: 15px;
+ }
+ .icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .fab{
+   color: rgb(0, 60, 255);
+   text-decoration: none;
+ }
+ .fag{
+  color:rgb(255, 0, 0);
+  text-decoration: none;
+ }
+ .fai{
+   color: rgb(144, 0, 180);
+   text-decoration: none;
+ }
+
+
+
+/*start free consultaion*/
+
+
+form{
+    padding: 10px;
+
+}
+#name{
+    width: 100%;
+    height: 100px;
+
+}
+
+span{
+    color: red;
+}
+.name1{
+    margin-left: 330px;
+    margin-top: 90px;
+    margin-bottom: -20px;
+    width: 125px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.firstname{ /*first textbox*/
+    border: 1px solid transparent;
+    background-color: #f5f5f5;
+    color: #5b5b5b;
+    width: 180px;
+    position: relative;
+    left: 320px;
+    top: 10px;
+    line-height: 28px;
+    border-radius: 3px;
+    padding: 9px 15px 7px;
+    font-size: 14px;
+    max-width: none;
+}
+.lastname{ /*second textbox*/
+    border: 1px solid transparent;
+    background-color: #f5f5f5;
+    color: #5b5b5b;
+    width: 180px;
+    position: relative;
+    left: 330px;
+    top: 10px;
+    line-height: 28px;
+    border-radius: 3px;
+    padding: 9px 15px 7px;
+    font-size: 14px;
+}
+.email{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 15px;
+    left: 330px;
+    top: -25px;
+}
+
+.Email{/*email textbox*/
+    border: 1px solid transparent;
+    background-color: #f5f5f5;
+    color: #5b5b5b;
+    position: relative;
+    left: 320px;
+    top: -19px;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 9px 15px 7px;
+    width: 409px;
+    border-radius: 3px;
+
+}
+
+.messagebox{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 15px;
+    left: 328px;
+    top: -10px;
+}
+
+.Message1{ /*message textbox*/
+    border: 1px solid transparent;
+    background-color: #f5f5f5;
+    color: #5b5b5b;
+    position: relative;
+    left: 318px;
+    top: -5px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 9px 15px 7px;
+    height: 120px;
+    width: 415px;
+    border-radius: 4px;
+}
+.sbmtbtn{
+    padding: 8px;
+    position: relative;
+    background-color: rgb(71, 170, 109);
+    color: white;
+    width: 130px;
+    border: none;
+    border-radius: 40px;
+    display: block;
+    letter-spacing: 2px;
+    top: 5px;
+    left: 320px;
+    font-size: 1em;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.sbmtbtn:hover{
+    background-color: #197278;
+    transition: ease-out 0.4s;
+}
+
+.talk{
+    font-size: 2em;
+    position: relative;
+    letter-spacing: 2px;
+    left: 380px;
+    color: #197278;
+    top: 40px;
+}
+
+.contact{
+    font-size: 2em;
+    line-height: 1.1;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    letter-spacing: 2px;
+    color: #197278;
+    left: 1100px;
+    bottom: 535px;
+}
+.add{
+    position: absolute;
+    display: flex;
+    color: #197278;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    left: 1100px;
+    bottom: 350px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.fulladd{
+    position: absolute;
+    display: flex;
+    color: rgba(85,85,85,1);
+    left: 1050px;
+    bottom: 320px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.mail-us{
+    position: absolute;
+    display: flex;
+    color: #197278;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    left: 1100px;
+    bottom: 250px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.info-anafara{
+    position: absolute;
+    display: flex;
+    color: rgba(85,85,85,1);
+    left: 1050px;
+    bottom: 245px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.call-us{
+    position: absolute;
+    display: flex;
+    color: #197278;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    left: 1100px;
+    bottom: 150px;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.CN{
+    position: absolute;
+    display: flex;
+    color: rgba(85,85,85,1);
+    left: 1050px;
+    bottom: 140px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+textarea{
+    overflow: auto;
+    overflow: x;
+    overflow: y;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="container">
+
+
+    <nav>
+        <div class ="logo"><a href="#"><img src ="anafara.png" alt width="500" height="300"></a>
+          </div>
+  <ul class="nav">
+    
+      <li><a href ="#">HOME </a></li>
+        <li><a href ="#">ABOUT US </a></li>
+          <li><a href ="#">SERVICES </a></li>
+          <li ><a href ="#">SHOP HERE </a></li>
+            <li><a href ="#">LET'S TALK </a></li>
+              <li><a href ="#">AFFILIATES </a></li>
+               <li><a  href ="#"> PARTNERS</a></li>
+              
+  </ul>
+    </nav>
+    <div class = "intro">
+      <br>
+        <br>
+          <br>
+            
+            <h1>Free Consultation</h1>
+              <br>
+            <p>Let's us know your requirements, and we will be happy to assist you.</p>
+    </div>
+
+
+  <div class = "icons">
+    <a class="fab fa-brands fa-facebook fa-2x" href ="https://www.facebook.com/AnafaraGroup" ></a>
+      <a class="fag fa-solid fa-location-dot fa-2x" href="https://www.google.com/maps/place/Anafara+Products+Trading/@14.7938958,121.0832018,15z/data=!4m5!3m4!1s0x0:0x28c2388e55e27098!8m2!3d14.7938958!4d121.0832018"></a>
+        <a class="fai fa-brands fa-instagram-square fa-2x" href ="https://www.google.com/maps/place/Anafara+Products+Trading/@14.7938958,121.0832018,15z/data=!4m5!3m4!1s0x0:0x28c2388e55e27098!8m2!3d14.7938958!4d121.0832018"></a>
+  </div>
+
+
+
+  <form>
+
+    <h2 class="talk">WE'RE READY, LET'S TALK.</h2>
+ 
+
+    <div id="name">
+        <h2 class="name1">Name<span>  *</span></h2><br>
+        <input class="firstname" type="text" placeholder="First Name">
+        <label class="lastlabel"></label>
+        <input class="lastname" type="text" placeholder="Last Name">
+        <label class="lastlabel"></label>
+    </div>
+
+<h2 class="email">Email<span>  *</span></h2>
+<input class="Email" type="text" placeholder="Enter Your Email Address">
+
+
+
+<h2 class="messagebox">Message<span>  *</span></h2>
+<textarea input class="Message1" type="text"></textarea>
+
+<button type="submit" class="sbmtbtn">Submit</button>
+
+</form>
+
+</section>
+
+</div>
+
+   
+    <h2 class="contact">Contact Info</h2>
+    <h6 class="add">Address</h6>
+    <p class="fulladd">Tungko, Block 3 Lot 14 Phase 2 Northridge Grove, San Jose del<br> Monte City, 3023 Bulacan</p>
+
+<h6 class="mail-us">Email Us</h6>
+<p class="info-anafara">info@anafara.com</p>
+<h6 class="call-us">Call Us</h6>
+<p class="CN">+639164621204</p>
+
+
+</div>
+</body>
+</html>
